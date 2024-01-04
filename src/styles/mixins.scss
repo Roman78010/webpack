@@ -1,0 +1,5 @@
+@mixin mainFont($fontSize) {
+  font-size: $fontSize;
+  font-weight: 400;
+  color: purple;
+}

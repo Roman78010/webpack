@@ -1,0 +1,10 @@
+.button {
+  @include mainFont(20px);
+  width: 100px;
+  height: 50px;
+  background-color: $main-color;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
